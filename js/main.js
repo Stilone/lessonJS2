@@ -15,7 +15,6 @@ const products = [
     { id: 12, title:'MacBook Pro 16', price: '250 000р.'},
 ];
 
-
 const renderProduct = (title, price) => {
     return `<div class="product-item">
                 <img class="img-product "src="img/eye.jpg" alt="myImage" width=120 height=80>
@@ -30,6 +29,5 @@ const render = productsList => {
     document.querySelector('.products').innerHTML = productsElements;
     
 };
-
 
 render(products);
