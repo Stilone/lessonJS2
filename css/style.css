@@ -76,11 +76,9 @@ img {
     color: #2f2a2d;
 }
 
-.container {
-    display: flex;
-    justify-content: end;
-}
+.comment {
+    width: 200px;
+    height: 100px;
+    resize: none;
+  }
 
-p {
-    
-}

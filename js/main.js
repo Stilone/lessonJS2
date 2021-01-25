@@ -1,5 +1,5 @@
 
-const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
+/*const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 
 let getData = (url, cb) => {
     let xhr = new XMLHttpRequest();
@@ -33,7 +33,7 @@ class Product {
                   <div class="desc">
                       <h3 class="title_cart">${this.title}</h3>
                       <p class="price_cart">${this.price}</p>
-                      <button class="buy-btn">Купить</button>
+                      <button class="buy_btn">Купить</button>
                   </div>
               </div>`
     }
@@ -77,84 +77,89 @@ class ProductsList {
     }
 }
 
-const getProduct = document.getElementsByClassName('buy-btn');
-
-class Cart {
-    constructor(cartConteiner, img = 'https://placehold.it/50x50') {
-        let = { title_cart, price_cart, id_product } = cartConteiner;
-        this.img = img;
-        this.title = title_cart;
-        this.price = price_cart;
-        this.id = id_product;
-        
-    }
-
-    renderCart() {
-        return `<div class="cart_list">
-                    <img src="${this.img}" alt="${this.title}">
-                    <div class="desc_cart">
-                    <h3>${this.title}</h3>
-                    <p>${this.price}</p>
-                </div>
-                    <p class="cart_full-price">${this.fullPrice}</p>
-                    <button class="btn_remove">Удалить</button>
-                </div>`
-    }
-}
-
-class CartList {
-    constructor(productsCart = '.contaier-Cart') {
-    fullPrice = [];
-    this.productsCart = document.querySelector(productsCart);    
-    }
-
-    addProduct() {
-        getProduct.addEventListener('click', () => {
-            fullPrice
-    }
-}
 
 const list = new ProductsList();
-console.log(list.calcSum());
+console.log(list.calcSum()); 
 
 
-// const products = [
-//     { id: 1, title: 'Notebook', price: 2000 },
-//     { id: 2, title: 'Keyboard', price: 200 },
-//     { id: 3, title: 'Mouse', price: 100 },
-//     { id: 4, title: 'Gamepad' },
-// ];
-//
-// const renderProduct = (product, img = 'https://placehold.it/100x50') => {
-//     return `<div class="product-item">
-//                  <img src="${img}" alt="${product.title}">
-//                  <div class="desc">
-//                      <h3>${product.title}</h3>
-//                      <p>${product.price}</p>
-//                      <button class="buy-btn">Купить</button>
-//                  </div>
-//              </div>`
-// };
+const getProduct = document.getElementsByClassName('buy-btn');
+const cartAlert = document.getElementsByClassName('contaier-Cart');
+let cart = [];
 
-// const renderProduct = (product, img = 'https://placehold.it/100x50') => {
-//     const { title, price = 10 } = product;
-//     return `<div class="product-item">
-//                  <img src="${img}" alt="${title}">
-//                  <div class="desc">
-//                      <h3>${title}</h3>
-//                      <p>${price}</p>
-//                      <button class="buy-btn">Купить</button>
-//                  </div>
-//              </div>`
-// };
+const addProduct = (product, target) => {
+        target.push(product);
+        return target;    
+}
 
-// const renderPage = productsList => {
-//     // document.querySelector(`.products`).innerHTML = productsList.map(product => renderProduct(product)).join('');
-//     const element = document.querySelector(`.products`);
-//     let strElements = '';
-//     for (let product of productsList) {
-//         element.insertAdjacentHTML('beforeend', renderProduct(product));
-//     }
-// };
-//
-// renderPage(products);
+const removeProduct = (index) => {
+  cart.splice(index, 1);
+
+render(cart);
+};
+
+window.removeProduct = removeProduct; 
+
+const getList = (list) => {
+    const getElement = (product, index) => {
+        return `<li> ${product} <button onclick="removeProduct(${index})">Удалить</button> </li>`;
+    } 
+
+	return list.map(getElement);
+}
+
+const render = (list) => {
+    const htmlList = getList(list)
+
+    cartAlert.innerHTML = htmlList.join('');
+}
+
+getProduct.addEventListener('click', () => {
+    cart = addProduct(getProduct.value, cart);
+		render(cart);
+
+inputText.value = '';
+
+});*/
+
+
+let str = ` One: 'Hi Mary.' Two: 'Oh, hi.'
+One: 'How are you doing?'
+Two: 'I'm doing alright. How about you?'
+    One: 'Not too bad. The weather is great isn't it?'
+    Two: 'Yes. It's absolutely beautiful today.'
+One: 'I wish it was like this more frequently.'
+Two: 'Me too.'
+One: 'So where are you going now?'
+Two: 'I'm going to meet a friend of mine at the department store.'
+One: 'Going to do a little shopping?'
+Two: 'Yeah, I have to buy some presents for my parents.'
+One: 'What's the occasion?'
+    Two: 'It's their anniversary.'
+One: 'That's great. Well, you better get going. You don't want to be late.'
+Two: 'I'll see you next time.'
+One: 'Sure. Bye.' `
+
+
+console.log(str.replace(/(\s'|'\s)/g, '"'));
+
+const inputName = document.getElementById('get-name');
+const inputEmail = document.getElementById('get-email');
+const inputNumber = document.getElementById('get-number');
+const sendBatton = document.getElementById('send-result');
+
+
+const NameCheck = (name) => { 
+    if(name != null && name.value.length < 3 ) {
+    
+    }
+    
+    
+}
+
+sendBatton.addEventListener('click', () => {
+    resultElement.textContent = NameCheck(); 
+   inputText.value = '';
+});
+
+
+
