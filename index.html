@@ -2,16 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/css.css">
+    <title>Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <button class="btn-cart">Корзина</button>
+        <div class="logo">E-shop</div>
+        <button class="btn-cart" type="button">Корзина</button>
     </header>
     <main>
-        <div class="products"></div>
+        <div class="contaier-Cart">
+      
+        </div>
+        <!--beforebegin-->
+        <div class="products">
+            <!--afterbegin-->
+            <!--            beforeend-->
+        </div>
+        <!--        afterend-->
+
+        <input id="get-name" type="text" value="Введите Имя"/>
+        <input id="get-email" type="email" value="name@example.com"/>
+        <input id="get-number" type="num" value="+7(999)999-99-99"/>
+        <textarea class="comment" id="get-comment" type="text">текст сообщения</textarea>
+        <input type="submit" id="send-result" value="Отправить"/>
+        <input type="reset"  value="Очистить"/>
     </main>
-    <script src="js/main.js"></script>
+<script defer src="js/main.js"></script>
 </body>
 </html>
