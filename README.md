@@ -10,12 +10,10 @@ The project features a shopping cart button and multiple cards displaying images
 
 Additionally, I would like to express my gratitude to the online community for their guidance and support throughout this learning journey. The knowledge I gained from tutorials, forums, and online resources played a significant role in shaping my understanding of web development.
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJ5NWxtMm9zdDZ0ODhqMTVuNTEzY3J1cHZ5a2JvZG9nM2VibXNpbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" alt="GIF" width="457" height="480">
-</p>
-
-<p align="left">While this project may seem simple, it represents an important milestone in my coding experience. It reminds me of the excitement and challenges I faced as a beginner, and serves as a testament to my determination to improve and grow as a developer.</p>
-
+<div>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJ5NWxtMm9zdDZ0ODhqMTVuNTEzY3J1cHZ5a2JvZG9nM2VibXNpbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" alt="GIF" width="457" height="480" align="right">
+  <p align="left">While this project may seem simple, it represents an important milestone in my coding experience. It reminds me of the excitement and challenges I faced as a beginner, and serves as a testament to my determination to improve and grow as a developer.</p>
+</div>
 
 Thank you for taking the time to visit this repository and for your interest in my learning process. I hope you find value in this project, and that it inspires others who are just starting their coding journey. 🌟
 
