@@ -1,6 +1,6 @@
 **Welcome** 👋 to my first project on GitHub! This project serves as my practice in working with Git, although it is not the first project I have worked on. Primarily, I learned from video tutorials and followed along with the instructor, particularly in the `index.html` and `main.js` files. At that time, I used the `lesson1.html` file as a means to practice working with functions and memorizing code through practical application.
 
--I made an effort not to modify the existing code in the project, as I wanted to preserve the initial stage and how everything looked as a memory of my progress. It was challenging for me, but I persevered and continued moving forward.-
+I made an effort not to modify the existing code in the project, as I wanted to preserve the initial stage and how everything looked as a memory of my progress. It was challenging for me, but I persevered and continued moving forward.
 
 **Below is a screenshot of the project:**
 
