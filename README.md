@@ -22,11 +22,11 @@ During the development process, I made a conscious decision not to modify the ex
 
 I would like to express my heartfelt gratitude to the online community for their unwavering support and guidance throughout my learning process. Various video tutorials, forums, and online resources have played a pivotal role in shaping my understanding of web development.
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJ5NWxtMm9zdDZ0ODhqMTVuNTEzY3J1cHZ5a2JvZG9nM2VibXNpbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" alt="GIF" width="457" height="480">
-
 ## Conclusion
 
 Although this project may appear simple, it holds immense significance as a milestone in my coding journey. It reminds me of the excitement and difficulties I encountered as a beginner. It stands as a testament to my determination to continually improve and evolve as a developer.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJ5NWxtMm9zdDZ0ODhqMTVuNTEzY3J1cHZ5a2JvZG9nM2VibXNpbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" alt="GIF" width="457" height="480">
 
 Thank you for visiting this repository and showing interest in my learning process. I hope this project provides value and serves as an inspiration to others embarking on their coding journey.
 
