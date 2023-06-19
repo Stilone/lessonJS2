@@ -10,14 +10,12 @@ The project features a shopping cart button and multiple cards displaying images
 
 Additionally, I would like to express my gratitude to the online community for their guidance and support throughout this learning journey. The knowledge I gained from tutorials, forums, and online resources played a significant role in shaping my understanding of web development.
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 50%;">
-    <p>While this project may seem simple, it represents an important milestone in my coding experience. It reminds me of the excitement and challenges I faced as a beginner, and serves as a testament to my determination to improve and grow as a developer.</p>
-  </div>
-  <div style="width: 50%;">
-    <iframe src="https://giphy.com/embed/3oKIPnAiaMCws8nOsE" width="457" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-kitten-computer-3oKIPnAiaMCws8nOsE">via GIPHY</a></p>
-  </div>
-</div>
+<p align="center">
+  <img src="https://giphy.com/embed/3oKIPnAiaMCws8nOsE" alt="GIF" width="457" height="480">
+</p>
+
+<p align="left">While this project may seem simple, it represents an important milestone in my coding experience. It reminds me of the excitement and challenges I faced as a beginner, and serves as a testament to my determination to improve and grow as a developer.</p>
+
 
 Thank you for taking the time to visit this repository and for your interest in my learning process. I hope you find value in this project, and that it inspires others who are just starting their coding journey. 🌟
 
