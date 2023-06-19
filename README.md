@@ -2,7 +2,7 @@
 
 I made an effort not to modify the existing code in the project, as I wanted to preserve the initial stage and how everything looked as a memory of my progress. It was challenging for me, but I persevered and continued moving forward.
 
-** -- Below is a screenshot of the project😎:**
+**Below is a screenshot of the project😎:**
 
 ![Project Screenshot](https://sun9-77.userapi.com/impg/HVN8g1VxKAL_oomu8fNDD-osy6v1Fvx0z3FMpA/Ia-UBzgGY9k.jpg?size=604x270&quality=96&sign=19e36272a742d33133b482433a9e31c0&type=album)
 
