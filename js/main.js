@@ -1,6 +1,4 @@
-
-
-const products = [
+const productsList = [
     { id: 1, title:'IPhone 12Pro', price: '100 000р.' },
     { id: 2, title:'IPhone 12', price: '90 000р.' },
     { id: 3, title:'IPhone SE', price: '70 000р.'},
@@ -24,10 +22,9 @@ const renderProduct = (title, price) => {
             </div>`
 };
 
-const render = productsList => {
+const render = (productsList) => {
     const productsElements = productsList.map(item => renderProduct(item.title, item.price)).join('');
-    document.querySelector('.products').innerHTML = productsElements;
-    
+    document.querySelector('.products').innerHTML = productsElements; 
 };
 
-render(products);
+render(productsList);
